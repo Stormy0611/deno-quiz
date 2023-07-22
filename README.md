@@ -16,3 +16,7 @@ irm https://deno.land/install.ps1 | iex
 |DATABASE_URL|postgres://username:password@host:port/dbname|
 #### Restore Database nameed dbname above in PostgreSQL
 Using flyway/sql/V1__initial_schema.sql
+## Running
+```
+deno task dev
+```
