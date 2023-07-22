@@ -1,7 +1,18 @@
-# Project 2: XXX
-
-Write the documentation of your project here. Do not include your personal
-details (e.g. name or student number).
-
-Remember to include the address of the online location where your project is
-running as it is a key part of the submission.
+# Quiz
+Simple Deno Oak MVC, API, CRUD Application
+Main Directory is drill-and-pracitce
+## Installation
+### PostgreSQL
+### Deno
+Using Powershell command
+```
+irm https://deno.land/install.ps1 | iex
+```
+## Usage
+### Setup Environment
+#### Environment Variables
+|Key | Value |
+|--|--|
+|DATABASE_URL|postgres://username:password@host:port/dbname|
+#### Restore Database nameed dbname above in PostgreSQL
+Using flyway/sql/V1__initial_schema.sql
